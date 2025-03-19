@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: blue !important;
+  }
+  
+  .animated-heading {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    animation: moveText 5s linear infinite;
+  }
+  
+  @keyframes moveText {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  

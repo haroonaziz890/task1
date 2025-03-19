@@ -1,0 +1,30 @@
+/* ✅ Smaller Background for Dropdown */
+.divider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Smaller Height (Half Page) */
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4); /* Gradient Background */
+    padding: 20px;
+    border-radius: 12px; /* Rounded Edges */
+  }
+  
+  /* ✅ Dropdown Styling */
+  .divider-container .dropdown-toggle {
+    background-color: #007bff; /* Blue Button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .divider-container .dropdown-menu {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ✅ Divider Styling */
+  .divider-container .dropdown-divider {
+    border-top: 2px solid #007bff; /* Blue Divider */
+  }
+  
